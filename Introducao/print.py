@@ -12,3 +12,9 @@ nome = "Eduardo"
 print("Meu nome e", nome)
 idade = 23
 print("Me chamo", nome, "eu tenho", idade, "anos!")
+
+dia = 10
+mes = 11
+ano = 2021
+
+print(dia, mes, ano, sep="/")
