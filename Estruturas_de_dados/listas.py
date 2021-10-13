@@ -1,4 +1,4 @@
-#Uma lista é uma sequência de valores, que possuem uma posição definida e um dado
+#Uma lista é uma sequência de valores ordenada, que possuem uma posição definida e um dado
 #Em python lista podem ter valores de diferentes tipos, embora não seja recomendado a mistura de tipos diferentes
 
 primeira_lista = [1, "Oi", True, 2.98]
@@ -18,3 +18,8 @@ print(max(numeros)) #Retorna o maior valor da lista
 print(letras.count("a")) #Retorna a quantidade de vezes que um valor se encontra na lista
 
 print(len(letras)) #Retorna o tamanho da lista
+
+#Podemos converter sequências imutáveis como strings em listas
+nome = "Catarina"
+lista_nome = list(nome)
+print(lista_nome)
