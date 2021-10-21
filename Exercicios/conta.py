@@ -19,6 +19,22 @@ class Conta:
         self.saque(valor)
         destino.deposito(valor)
 
+    @property
+    def saldo(self):
+        return self.__saldo
+    
+    @property
+    def titular(self):
+        return self.__titular
+
+    @property
+    def limite(self):
+        return self.__titular
+
+    @limite.setter
+    def limite(self, limite):
+        self.__limite = limite    
+
 conta_1 = Conta(55501, "Paulo", 700.0, 5000.0)
 conta_2 = Conta(55502, "Eduardo", 300.0, 5000.0)
 
