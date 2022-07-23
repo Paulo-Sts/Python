@@ -1,7 +1,7 @@
-#Por meio de funções internas da linguagem podemos converter um tipo de dado em outro
-#Principais funções de casting: int(), float(), str()
+# Por meio de funções internas da linguagem podemos converter um tipo de dado em outro
+# Principais funções de casting: int(), float(), str()
 
-#Exemplos
+# Exemplos
 valor_1 = 3
 valor_2 = 2.89
 valor_3 = "2.500"

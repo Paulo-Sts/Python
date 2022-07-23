@@ -1,1 +1,1 @@
-#Em python os comentários são feitos utilizando o caractere # sendo comentários de linha
+# Em python os comentários são feitos utilizando o caractere # sendo comentários de linha
