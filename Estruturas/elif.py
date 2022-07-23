@@ -1,4 +1,4 @@
-#O elif simplifica a criação de ifs encadeados em que cada um possui um bloco de código para uma condição
+# O elif simplifica a criação de ifs encadeados em que cada um possui um bloco de código para uma condição
 
 media_str = input("Digite sua média:\n")
 media = float(media_str)

@@ -1,4 +1,4 @@
-#São métodos que pertencem a classe independente da existencia de objetos. Para todos os objetos eles serão o mesmo
+# São métodos que pertencem a classe independente da existencia de objetos. Para todos os objetos eles serão o mesmo
 class Livro:
     def __init__(self, nome, autor, preco):
         self.__nome = nome

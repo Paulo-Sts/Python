@@ -1,4 +1,4 @@
-#O if else define um bloco de código executável quando uma condição for verdadeira e outro caso ela seja falsa
+# O if else define um bloco de código executável quando uma condição for verdadeira e outro caso ela seja falsa
 
 idade_str = input("Digite sua idade:\n")
 idade = int(idade_str)

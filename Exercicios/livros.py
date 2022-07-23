@@ -27,8 +27,8 @@ class Fantasia(Livro):
         self.categoria_fantasia = categoria_fantasia
 
 
-class Ficcao_cientifica(Livro):#Para definir que uma classe herda de outra define-se a superclasse entre parênteses
+class Ficcao_cientifica(Livro):# Para definir que uma classe herda de outra define-se a superclasse entre parênteses
     def __init__(self, titulo, ano, paginas, categoria_ficcao_cientifica):
-        super().__init__(titulo, ano, paginas) #Para reutilizar os atributos da classe Mãe usa-se o método super
+        super().__init__(titulo, ano, paginas) # Para reutilizar os atributos da classe Mãe usa-se o método super
         self.categoria_ficcao_cientifica = categoria_ficcao_cientifica
 

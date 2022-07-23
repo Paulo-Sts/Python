@@ -1,4 +1,4 @@
-#Métodos privados são métodos que não são acessados diretamente, sendo utilizados em outros métodos dentro da classe
+# Métodos privados são métodos que não são acessados diretamente, sendo utilizados em outros métodos dentro da classe
 class Carro:
     def __init__(self, modelo, velocidade, combustivel):
         self.modelo = modelo

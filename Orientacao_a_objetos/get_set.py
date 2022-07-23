@@ -1,4 +1,4 @@
-#Por convenção em OO o acesso ao valor dos atributos ou modificações deles é feita por métodos getters e setters
+# Por convenção em OO o acesso ao valor dos atributos ou modificações deles é feita por métodos getters e setters
 
 class Aluno:
 
@@ -7,7 +7,7 @@ class Aluno:
         self.__matricula = matricula
         self.__media = media
 
-    def get_nome(self): #O get retorna o valor do atributo do objeto
+    def get_nome(self): # O get retorna o valor do atributo do objeto
         return self.__nome
     
     def get_matricula(self):
@@ -16,7 +16,7 @@ class Aluno:
     def get_media(self):
         return self.__media
 
-    def set_media(self, media): #O set altera o valor do atributo
+    def set_media(self, media): # O set altera o valor do atributo
         self.__media = media
 
 

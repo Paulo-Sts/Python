@@ -12,7 +12,7 @@ class Conta:
     def deposito(self, valor):
         self.__saldo += valor
     
-    def __pode_sacar(self, valor): #Métodos privados, são métodos que são usados por outros métodos e não são acessados diretamente
+    def __pode_sacar(self, valor): # Métodos privados, são métodos que são usados por outros métodos e não são acessados diretamente
         limite = self.__saldo + self.__limite
         return valor <= limite
 
@@ -42,7 +42,7 @@ class Conta:
     def limite(self, limite):
         self.__limite = limite    
     
-    @staticmethod #Métodos estáticos são métodos pertencentes a classe independentes dos objetos
+    @staticmethod # Métodos estáticos são métodos pertencentes a classe independentes dos objetos
     def codigo_banco():
         return "001"
     
