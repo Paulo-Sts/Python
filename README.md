@@ -3,4 +3,4 @@
 </div>
 
 ### Python
-* Sintaxe e características da linguagem.
+Sintaxe e características da linguagem.
